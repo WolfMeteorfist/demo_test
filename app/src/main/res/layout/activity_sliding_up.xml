@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoDragView="@id/drag_view"
+    sothree:umanoOverlay="false"
+    sothree:umanoPanelHeight="1dp"
+    sothree:umanoParallaxOffset="100dp"
+    sothree:umanoInitialState="collapsed"
+    sothree:umanoShadowHeight="4dp">
+
+    <FrameLayout
+        android:id="@+id/fl_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/app_name" />
+
+        <Button
+            android:id="@+id/btn_fade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click me to fade"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/drag_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="damn it!" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="I am pig!" />
+    </LinearLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

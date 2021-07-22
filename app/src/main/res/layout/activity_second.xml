@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.myapplication.widget.MyRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.myapplication.widget.MyTextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="145dp"
+        android:text="我是第二页面"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="36dp"
+        android:text="注册音频焦点"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</com.example.myapplication.widget.MyRelativeLayout>

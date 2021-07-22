@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <com.example.myapplication.widget.MyRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:background="@drawable/shape_ap_top_round_normal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_iot_title_rv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxWidth="208dp"
+                android:text="智能家居"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_iot_desc_rv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_iot_title_rv"
+                android:layout_marginTop="10dp"
+                android:text="选中1-2个后可在主页快捷控制开关"
+                android:textColor="#33FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <com.example.myapplication.widget.MyTextView
+            android:id="@+id/tv_cancle"
+            android:layout_width="84dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_moduleedit_buttonbg"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shape_dash_line" />
+
+    </com.example.myapplication.widget.MyRelativeLayout>
+</layout>

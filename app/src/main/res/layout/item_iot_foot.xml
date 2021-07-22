@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:paddingStart="20dp"
+        android:background="#ff242632"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:id="@+id/tv_device_item_foot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            tools:text="窗帘"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_room_item_foot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            tools:text="客厅"
+            android:textColor="#CCFFFFFF"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/cb_item_foot"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            tools:checked="true"
+            android:padding="10dp" />
+
+
+    </RelativeLayout>
+</layout>
