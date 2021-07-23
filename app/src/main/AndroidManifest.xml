@@ -19,15 +19,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".SecondActivity">
-        </activity>
+        <activity android:name=".SecondActivity"></activity>
         <activity
             android:name=".BottomToTopLayoutActivity"
             android:theme="@android:style/Animation.Translucent" />
         <activity android:name=".slidingup.SlidingUpPanelActivity"></activity>
         <activity android:name=".slidingup.SlideUpActivity" />
         <activity android:name=".mvvm.MvvmActivity"></activity>
-        <activity android:name=".footrv.FootActivity">
+        <activity android:name=".footrv.FootActivity" />
+        <activity android:name=".popupwindow.PopupWindowActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

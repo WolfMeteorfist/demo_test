@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/shape_ap_top_round_normal"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/ccui_dp_24"
+    android:paddingTop="@dimen/ccui_dp_25"
+    android:paddingBottom="@dimen/ccui_dp_24">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="分类"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_22" />
+
+            <ImageView
+                android:id="@+id/iv_close_pop_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_close" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ccui_dp_30"
+            android:text="房间"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ccui_sp_18" />
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ccui_dp_20"
+            app:dividerDrawable="@drawable/flex_box_item_gap_drawable"
+            app:dividerDrawableHorizontal="@drawable/flex_box_line_gap_drawable"
+            app:dividerDrawableVertical="@drawable/flex_box_item_gap_drawable"
+            app:flexDirection="row"
+            app:flexWrap="wrap"
+            app:justifyContent="flex_start"
+            app:showDivider="middle"
+            app:showDividerHorizontal="middle">
+
+            <TextView
+                android:id="@+id/tv_gg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxEms="6"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:singleLine="true"
+                android:text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:ellipsize="end"
+                android:maxEms="6"
+                android:maxLines="1"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="@string/all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ccui_dp_30"
+            android:text="@string/category"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ccui_sp_18" />
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/flx_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ccui_dp_20"
+            app:flexWrap="wrap">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_btn_round_bg"
+                android:paddingHorizontal="@dimen/ccui_dp_27"
+                android:paddingVertical="@dimen/ccui_dp_11"
+                android:text="灯具"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ccui_sp_20" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+    </LinearLayout>
+
+</ScrollView>

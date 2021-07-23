@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="text_iot_offline">已离线</string>
+    <string name="step_one">1.连接网络</string>
+    <string name="step_one_detail">屏幕下拉单击“设置”，进入“网络连接”选择您要连接的Wi-Fi。</string>
+    <string name="step_two">2.下载APP并注册登录</string>
+    <string name="step_two_detail">请在手机应用市场中，搜索下载“晓听智能”APP，先按指示注册登录账号。</string>
+    <string name="step_three">3.添加绑定设备</string>
+    <string name="step_three_detail">启用APP，单击“+”，选择“思必驰面板”，点击屏幕下方【开始绑定】，用手机扫描弹出的二维码，完成绑定。</string>
+    <string name="add_scene">添加智能情景</string>
+    <string name="add_scene_detail">你还未在App上添加任何智能情景， 添加后即可在面板上查看和控制哦</string>
+    <string name="add_device">添加智能设备</string>
+    <string name="add_device_detail">你还未在App上添加任何智能设备， 添加后即可在面板上查看和控制哦</string>
+    <string name="bind_account_first">请先扫码绑定帐号</string>
+    <string name="bind_now">开始绑定</string>
+    <string name="all">所有</string>
+    <string name="classification">分类</string>
+    <string name="room">房间</string>
+    <string name="category">品类</string>
 </resources>
